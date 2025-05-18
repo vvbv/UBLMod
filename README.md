@@ -5,7 +5,7 @@ A Linux Kernel Module (LKM LSM) that demonstrates how to make an LKM non-removab
 
 ## Compilation
 ```sh
-make -C /lib/modules/$(uname -r)/build M=$(pwd) modules
+make 
 ```
 
 ## Installation
